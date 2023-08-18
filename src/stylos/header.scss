@@ -1,0 +1,7 @@
+@import './abstract/mixin.scss';
+
+.menu {
+    @include flex(row wrap, space-between, center);
+
+    padding: 1em;
+}

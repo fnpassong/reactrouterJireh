@@ -1,0 +1,8 @@
+
+
+@mixin flex($flef: row no wrap, $justC: center, $aligI:center){
+    display: flex;
+    flex-flow: $flef;
+    justify-content: $justC;
+    align-items: $aligI;
+}

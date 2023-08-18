@@ -1,6 +1,8 @@
 import { Fragment } from "react"
 import { NavLink } from "react-router-dom"
 
+import '../stylos/header.scss';
+
 export const Header = () => {
     return (
         <Fragment>

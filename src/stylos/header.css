@@ -1,0 +1,7 @@
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}/*# sourceMappingURL=header.css.map */
