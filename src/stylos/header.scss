@@ -2,6 +2,12 @@
 
 .menu {
     @include flex(row wrap, space-between, center);
-
+    background-color: aqua;
     padding: 1em;
+}
+
+.prueba {
+    text-align:justify;
+    max-height: 550px;
+    @include clrbg($scheme-accent-gradient...);
 }

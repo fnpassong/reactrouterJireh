@@ -1,8 +1,19 @@
-
+@use 'sass:list'; 
+@import './colors.scss';
 
 @mixin flex($flef: row no wrap, $justC: center, $aligI:center){
     display: flex;
     flex-flow: $flef;
     justify-content: $justC;
     align-items: $aligI;
+}
+
+@mixin clrbg($txt, $bg){
+
+    @if list.length($bg) ==1 {
+        background-color: $bg;
+    } @else {
+        background-image: linear-gradient(to top left, $bg);
+    }
+    color: $txt;
 }

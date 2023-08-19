@@ -3,5 +3,13 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: aqua;
   padding: 1em;
+}
+
+.prueba {
+  text-align: justify;
+  max-height: 550px;
+  background-color: #3e60be, #23ded2, #e5389b;
+  color: #323232;
 }/*# sourceMappingURL=header.css.map */

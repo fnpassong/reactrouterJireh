@@ -17,6 +17,10 @@ export const Header = () => {
                     <NavLink to ='/contacto'>Contacto</NavLink>
                 </nav>
             </header>
+
+            <div className="prueba">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officiis doloremque temporibus veniam obcaecati unde.</p>
+            </div>
         </Fragment>
     )
 }
