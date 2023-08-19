@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import logo from "/jirehLogo.svg"
 import { NavLink } from "react-router-dom"
 
 import '../stylos/header.scss';
@@ -8,7 +9,7 @@ export const Header = () => {
         <Fragment>
             <header className="menu">
                 <div className="menu__logo">
-                    Acá el logo
+                    <img src={logo} alt="Logo de Jireh" />
                 </div>
 
                 <nav className="menu__nav">
@@ -18,9 +19,6 @@ export const Header = () => {
                 </nav>
             </header>
 
-            <div className="prueba">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officiis doloremque temporibus veniam obcaecati unde.</p>
-            </div>
         </Fragment>
     )
 }

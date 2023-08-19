@@ -1,8 +1,8 @@
 $clr-primary : #3e60be;
-$clr-secondary: #23ded2;
-$clr-accent: #e5389b;
+$clr-secondary: hsl(267, 79%, 66%);
+$clr-accent: #7c787b;
 $clr-neutral-light: #efefef;
-$clr-neutral-dark: #323232;
+$clr-neutral-dark: hsla(0, 22%, 7%, 0.62);
 
 $simple-gradient: $clr-primary, $clr-secondary;
 $complex-gradient: $clr-primary, $clr-secondary, $clr-accent;

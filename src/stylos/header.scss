@@ -1,13 +1,23 @@
 @import './abstract/mixin.scss';
 
 .menu {
-    @include flex(row wrap, space-between, center);
-    background-color: aqua;
-    padding: 1em;
+    @include flex(row nowrap, space-between, center);
+    background-color: $clr-accent;
+    
+
+    &__logo {
+        width: 150px;
+
+        & > img {
+            object-fit: cover;
+            aspect-ratio: 16/09;
+
+        }
+    }
+
+    &__nav {
+        padding-inline: 1em;
+      
+    }
 }
 
-.prueba {
-    text-align:justify;
-    max-height: 550px;
-    @include clrbg($scheme-accent-gradient...);
-}

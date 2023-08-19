@@ -1,15 +1,18 @@
 .menu {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
-  padding: 1em;
+  background-color: #7c787b;
 }
-
-.prueba {
-  text-align: justify;
-  max-height: 550px;
-  background-color: #3e60be, #23ded2, #e5389b;
-  color: #323232;
+.menu__logo {
+  width: 150px;
+}
+.menu__logo > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
+}
+.menu__nav {
+  padding-inline: 1em;
 }/*# sourceMappingURL=header.css.map */
