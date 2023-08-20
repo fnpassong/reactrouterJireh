@@ -1,3 +1,5 @@
 export const Contacto = ()=> {
-    return ('Contacto');
+    return (
+        <h1>Contacto</h1>
+    );
 }
