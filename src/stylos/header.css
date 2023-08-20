@@ -15,6 +15,10 @@
 }
 .menu__nav {
   padding-inline: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 .menu__nav > * {
   margin-left: 15px;

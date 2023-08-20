@@ -17,11 +17,12 @@
 
     &__nav {
         padding-inline: 1em;
+        
+        @include flex(row wrap, center, center);
       
     }
 
     &__nav > * {
         margin-left: 15px;
     }
-
 }

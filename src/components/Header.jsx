@@ -20,7 +20,7 @@ export const Header = () => {
                     {
                         MenuData.map(({nombre, cName, icono, ruta}) => {
                             return(
-                                <NavLink className={cName} to= {ruta} > <i>{icono}</i> {nombre} </NavLink>
+                                <NavLink key={ruta} className={cName} to= {ruta} > <i>{icono}</i> {nombre} </NavLink>
                             )
                         })
                     }
