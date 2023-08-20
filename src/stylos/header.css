@@ -15,4 +15,7 @@
 }
 .menu__nav {
   padding-inline: 1em;
+}
+.menu__nav > * {
+  margin-left: 15px;
 }/*# sourceMappingURL=header.css.map */

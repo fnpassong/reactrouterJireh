@@ -2,7 +2,10 @@ import { Fragment } from "react"
 import logo from "/jirehLogo.svg"
 import { NavLink } from "react-router-dom"
 
+import './MenuData';
+
 import '../stylos/header.scss';
+import { MenuData } from "./MenuData";
 
 export const Header = () => {
     return (
@@ -13,9 +16,14 @@ export const Header = () => {
                 </div>
 
                 <nav className="menu__nav">
-                    <NavLink to ='/'>Home</NavLink>
-                    <NavLink to= '/artistas'>Artistas</NavLink>
-                    <NavLink to ='/contacto'>Contacto</NavLink>
+                   
+                    {
+                        MenuData.map(({nombre, cName, icono, ruta}) => {
+                            return(
+                                <NavLink className={cName} to= {ruta} > <i>{icono}</i> {nombre} </NavLink>
+                            )
+                        })
+                    }
                 </nav>
             </header>
 
